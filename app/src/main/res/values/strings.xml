@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LifeSoundtrack</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="create_new_account">Create a new account</string>
+    <string name="title">Title</string>
+    <string name="group">Group Name</string>
+    <string name="search_menu">Search</string>
+</resources>
