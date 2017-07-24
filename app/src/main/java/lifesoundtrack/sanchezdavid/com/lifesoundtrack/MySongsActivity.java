@@ -29,6 +29,7 @@ public class MySongsActivity extends AppCompatActivity implements SearchView.OnQ
         userSongList = user.getSongList();
         recyclerView = (RecyclerView) findViewById(R.id.mySongRecycler);
         GridLayoutManager layoutManager = new GridLayoutManager(this, 2);
+
         recyclerView.setLayoutManager(layoutManager);
         adapter = new SongAdapter(this,userSongList);
         recyclerView.setAdapter(adapter);
